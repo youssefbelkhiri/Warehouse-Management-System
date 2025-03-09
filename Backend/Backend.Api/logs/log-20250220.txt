@@ -1,0 +1,248 @@
+2025-02-20 13:53:16.344 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 13:53:17.046 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 13:53:17.048 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 13:53:17.049 +01:00 [INF] Hosting environment: Development
+2025-02-20 13:53:17.049 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 14:06:13.749 +01:00 [INF] Application is shutting down...
+2025-02-20 14:06:56.327 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 14:06:56.643 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 14:06:56.645 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 14:06:56.646 +01:00 [INF] Hosting environment: Development
+2025-02-20 14:06:56.646 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 14:12:27.726 +01:00 [INF] Application is shutting down...
+2025-02-20 14:25:18.326 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 14:25:18.924 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 14:25:18.926 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 14:25:18.926 +01:00 [INF] Hosting environment: Development
+2025-02-20 14:25:18.926 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 14:26:14.733 +01:00 [INF] Application is shutting down...
+2025-02-20 14:34:05.733 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 14:34:06.257 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 14:34:06.262 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 14:34:06.262 +01:00 [INF] Hosting environment: Development
+2025-02-20 14:34:06.262 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 14:42:02.263 +01:00 [INF] Application is shutting down...
+2025-02-20 15:13:14.813 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 15:13:15.005 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 15:13:15.008 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 15:13:15.008 +01:00 [INF] Hosting environment: Development
+2025-02-20 15:13:15.008 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 15:14:19.143 +01:00 [INF] Application is shutting down...
+2025-02-20 15:14:25.703 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 15:14:25.792 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 15:14:25.794 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 15:14:25.795 +01:00 [INF] Hosting environment: Development
+2025-02-20 15:14:25.795 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 15:15:37.076 +01:00 [DBG] Config reload token fired. Checking for changes...
+2025-02-20 15:15:39.314 +01:00 [INF] Application is shutting down...
+2025-02-20 15:15:39.316 +01:00 [DBG] Hosting stopping
+2025-02-20 15:15:39.324 +01:00 [DBG] Hosting stopped
+2025-02-20 15:15:45.590 +01:00 [DBG] Hosting starting
+2025-02-20 15:15:45.634 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 15:15:45.643 +01:00 [DBG] Reading data from file 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys\key-a4385413-e22b-41bb-8870-bf4449c3e508.xml'.
+2025-02-20 15:15:45.665 +01:00 [DBG] Found key {a4385413-e22b-41bb-8870-bf4449c3e508}.
+2025-02-20 15:15:45.671 +01:00 [DBG] Considering key {a4385413-e22b-41bb-8870-bf4449c3e508} with expiration date 2025-05-19 18:20:30Z as default key.
+2025-02-20 15:15:45.673 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 15:15:45.674 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-02-20 15:15:45.676 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 15:15:45.680 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-02-20 15:15:45.681 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-02-20 15:15:45.682 +01:00 [DBG] Using key {a4385413-e22b-41bb-8870-bf4449c3e508} as the default key.
+2025-02-20 15:15:45.683 +01:00 [DBG] Key ring with default key {a4385413-e22b-41bb-8870-bf4449c3e508} was loaded during application startup.
+2025-02-20 15:15:45.712 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 15:15:45.712 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 15:15:45.713 +01:00 [INF] Hosting environment: Development
+2025-02-20 15:15:45.713 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 15:15:45.713 +01:00 [DBG] Hosting started
+2025-02-20 15:15:45.852 +01:00 [DBG] Connection id "0HNAHN48L365B" accepted.
+2025-02-20 15:15:45.853 +01:00 [DBG] Connection id "0HNAHN48L365B" started.
+2025-02-20 15:15:45.854 +01:00 [DBG] Connection id "0HNAHN48L365C" accepted.
+2025-02-20 15:15:45.854 +01:00 [DBG] Connection id "0HNAHN48L365C" started.
+2025-02-20 15:15:45.882 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-02-20 15:15:45.967 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-02-20 15:15:45.978 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-02-20 15:15:45.978 +01:00 [DBG] Connection id "0HNAHN48L365B" completed keep alive response.
+2025-02-20 15:15:45.984 +01:00 [DBG] Connection id "0HNAHN48L365B" completed keep alive response.
+2025-02-20 15:15:46.230 +01:00 [DBG] Connection id "0HNAHN48L365B" completed keep alive response.
+2025-02-20 15:17:23.570 +01:00 [DBG] Connection id "0HNAHN48L365C" received FIN.
+2025-02-20 15:17:23.572 +01:00 [DBG] Connection id "0HNAHN48L365C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-02-20 15:17:23.573 +01:00 [DBG] Connection id "0HNAHN48L365C" disconnecting.
+2025-02-20 15:17:23.574 +01:00 [DBG] Connection id "0HNAHN48L365C" stopped.
+2025-02-20 15:17:23.603 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-02-20 15:17:23.609 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-02-20 15:17:23.670 +01:00 [DBG] Connection id "0HNAHN48L365B", Request id "0HNAHN48L365B:00000004": started reading request body.
+2025-02-20 15:17:23.671 +01:00 [DBG] Connection id "0HNAHN48L365B", Request id "0HNAHN48L365B:00000004": done reading request body.
+2025-02-20 15:17:23.734 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-02-20 15:17:23.967 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-02-20 15:17:23.968 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-02-20 15:17:24.134 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-02-20 15:17:24.169 +01:00 [DBG] Compiling query expression: 
+'DbSet<AppUser>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)'
+2025-02-20 15:17:24.274 +01:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<AppUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<AppUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: AppUser.Id (string) Required PK AfterSave:Throw, 0], [Property: AppUser.AccessFailedCount (int) Required, 1], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 2], [Property: AppUser.Email (string) MaxLength(256), 3], [Property: AppUser.EmailConfirmed (bool) Required, 4], [Property: AppUser.FirstName (string) Required, 5], [Property: AppUser.IsFirstLogin (bool) Required, 6], [Property: AppUser.LastName (string) Required, 7], [Property: AppUser.LockoutEnabled (bool) Required, 8], [Property: AppUser.LockoutEnd (DateTimeOffset?), 9], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: AppUser.PasswordHash (string), 12], [Property: AppUser.PhoneNumber (string), 13], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 14], [Property: AppUser.SecurityStamp (string), 15], [Property: AppUser.TwoFactorEnabled (bool) Required, 16], [Property: AppUser.UserName (string) MaxLength(256), 17] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.FirstName, a.IsFirstLogin, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppUser>, 
+        Backend.Infrastructure.Context.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-02-20 15:17:24.298 +01:00 [DBG] Creating DbConnection.
+2025-02-20 15:17:24.310 +01:00 [DBG] Created DbConnection. (9ms).
+2025-02-20 15:17:24.313 +01:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:17:25.465 +01:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:17:25.467 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-02-20 15:17:25.472 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-02-20 15:17:25.477 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2025-02-20 15:17:25.481 +01:00 [DBG] Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsFirstLogin], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-02-20 15:17:25.706 +01:00 [INF] Executed DbCommand (224ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsFirstLogin], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-02-20 15:17:25.729 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'AppUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-02-20 15:17:25.757 +01:00 [DBG] Closing data reader to 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:17:25.761 +01:00 [DBG] A data reader for 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' is being disposed after spending 51ms reading results.
+2025-02-20 15:17:25.763 +01:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:17:25.766 +01:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (2ms).
+2025-02-20 15:17:25.913 +01:00 [INF] HTTP POST /api/Auth/login responded 200 in 2307.4305 ms
+2025-02-20 15:17:25.914 +01:00 [DBG] Connection id "0HNAHN48L365B" completed keep alive response.
+2025-02-20 15:17:25.916 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2025-02-20 15:17:25.918 +01:00 [DBG] Disposing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:17:25.919 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-02-20 15:18:44.226 +01:00 [DBG] Connection id "0HNAHN48L365B" received FIN.
+2025-02-20 15:18:44.227 +01:00 [DBG] Connection id "0HNAHN48L365B" disconnecting.
+2025-02-20 15:18:44.227 +01:00 [DBG] Connection id "0HNAHN48L365B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-02-20 15:18:44.240 +01:00 [DBG] Connection id "0HNAHN48L365B" stopped.
+2025-02-20 15:18:53.575 +01:00 [DBG] Connection id "0HNAHN48L365D" accepted.
+2025-02-20 15:18:53.575 +01:00 [DBG] Connection id "0HNAHN48L365D" started.
+2025-02-20 15:18:53.577 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-02-20 15:18:53.578 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-02-20 15:18:53.580 +01:00 [DBG] Connection id "0HNAHN48L365D", Request id "0HNAHN48L365D:00000001": started reading request body.
+2025-02-20 15:18:53.580 +01:00 [DBG] Connection id "0HNAHN48L365D", Request id "0HNAHN48L365D:00000001": done reading request body.
+2025-02-20 15:18:53.621 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-02-20 15:18:53.624 +01:00 [DBG] Creating DbConnection.
+2025-02-20 15:18:53.624 +01:00 [DBG] Created DbConnection. (0ms).
+2025-02-20 15:18:53.624 +01:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:18:53.625 +01:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:18:53.625 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-02-20 15:18:53.625 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-02-20 15:18:53.625 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-02-20 15:18:53.626 +01:00 [DBG] Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsFirstLogin], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-02-20 15:18:53.635 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[IsFirstLogin], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-02-20 15:18:53.635 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'AppUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-02-20 15:18:53.636 +01:00 [DBG] Closing data reader to 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:18:53.636 +01:00 [DBG] A data reader for 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' is being disposed after spending 0ms reading results.
+2025-02-20 15:18:53.636 +01:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:18:53.636 +01:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (0ms).
+2025-02-20 15:18:53.694 +01:00 [INF] HTTP POST /api/Auth/login responded 200 in 117.2467 ms
+2025-02-20 15:18:53.695 +01:00 [DBG] Connection id "0HNAHN48L365D" completed keep alive response.
+2025-02-20 15:18:53.695 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2025-02-20 15:18:53.695 +01:00 [DBG] Disposing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-02-20 15:18:53.695 +01:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-02-20 15:19:24.271 +01:00 [DBG] Connection id "0HNAHN48L365D" received FIN.
+2025-02-20 15:19:24.272 +01:00 [DBG] Connection id "0HNAHN48L365D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-02-20 15:19:24.273 +01:00 [DBG] Connection id "0HNAHN48L365D" disconnecting.
+2025-02-20 15:19:24.273 +01:00 [DBG] Connection id "0HNAHN48L365D" stopped.
+2025-02-20 16:24:36.442 +01:00 [WRN] As of ""2025-02-20T15:24:33.1197561+00:00"", the heartbeat has been running for ""00:00:01.0877050"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-02-20 17:35:54.668 +01:00 [DBG] Hosting starting
+2025-02-20 17:35:54.859 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 17:35:54.873 +01:00 [DBG] Reading data from file 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys\key-a4385413-e22b-41bb-8870-bf4449c3e508.xml'.
+2025-02-20 17:35:54.882 +01:00 [DBG] Found key {a4385413-e22b-41bb-8870-bf4449c3e508}.
+2025-02-20 17:35:54.888 +01:00 [DBG] Considering key {a4385413-e22b-41bb-8870-bf4449c3e508} with expiration date 2025-05-19 18:20:30Z as default key.
+2025-02-20 17:35:54.890 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:35:54.892 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-02-20 17:35:54.894 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:35:54.897 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-02-20 17:35:54.898 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-02-20 17:35:54.901 +01:00 [DBG] Using key {a4385413-e22b-41bb-8870-bf4449c3e508} as the default key.
+2025-02-20 17:35:54.901 +01:00 [DBG] Key ring with default key {a4385413-e22b-41bb-8870-bf4449c3e508} was loaded during application startup.
+2025-02-20 17:35:54.930 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 17:35:54.932 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 17:35:54.933 +01:00 [INF] Hosting environment: Development
+2025-02-20 17:35:54.936 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 17:35:54.938 +01:00 [DBG] Hosting started
+2025-02-20 17:36:17.494 +01:00 [INF] Application is shutting down...
+2025-02-20 17:36:17.496 +01:00 [DBG] Hosting stopping
+2025-02-20 17:36:17.666 +01:00 [DBG] Hosting stopped
+2025-02-20 17:36:23.549 +01:00 [DBG] Hosting starting
+2025-02-20 17:36:23.587 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 17:36:23.594 +01:00 [DBG] Reading data from file 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys\key-a4385413-e22b-41bb-8870-bf4449c3e508.xml'.
+2025-02-20 17:36:23.601 +01:00 [DBG] Found key {a4385413-e22b-41bb-8870-bf4449c3e508}.
+2025-02-20 17:36:23.607 +01:00 [DBG] Considering key {a4385413-e22b-41bb-8870-bf4449c3e508} with expiration date 2025-05-19 18:20:30Z as default key.
+2025-02-20 17:36:23.611 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:36:23.616 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-02-20 17:36:23.618 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:36:23.622 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-02-20 17:36:23.624 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-02-20 17:36:23.626 +01:00 [DBG] Using key {a4385413-e22b-41bb-8870-bf4449c3e508} as the default key.
+2025-02-20 17:36:23.628 +01:00 [DBG] Key ring with default key {a4385413-e22b-41bb-8870-bf4449c3e508} was loaded during application startup.
+2025-02-20 17:36:23.656 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 17:36:23.657 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 17:36:23.659 +01:00 [INF] Hosting environment: Development
+2025-02-20 17:36:23.660 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 17:36:23.661 +01:00 [DBG] Hosting started
+2025-02-20 17:36:51.704 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" accepted.
+2025-02-20 17:36:51.715 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" started.
+2025-02-20 17:36:52.393 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-02-20 17:36:52.747 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-02-20 17:36:52.834 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-02-20 17:36:52.887 +01:00 [DBG] Running health checks
+2025-02-20 17:36:52.900 +01:00 [DBG] Health check processing with combined status "Healthy" completed after 7.0066ms
+2025-02-20 17:36:52.949 +01:00 [INF] HTTP GET /health responded 200 in 193.4001 ms
+2025-02-20 17:36:52.955 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" completed keep alive response.
+2025-02-20 17:36:53.369 +01:00 [DBG] The request path  does not match the path filter
+2025-02-20 17:36:53.375 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-02-20 17:36:53.378 +01:00 [INF] HTTP GET /favicon.ico responded 404 in 6.8536 ms
+2025-02-20 17:36:53.385 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" completed keep alive response.
+2025-02-20 17:37:01.700 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" received FIN.
+2025-02-20 17:37:01.705 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-02-20 17:37:01.709 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" disconnecting.
+2025-02-20 17:37:01.716 +01:00 [DBG] Connection id "0HNAHPJ3LMRVA" stopped.
+2025-02-20 17:57:59.926 +01:00 [INF] Application is shutting down...
+2025-02-20 17:57:59.929 +01:00 [DBG] Hosting stopping
+2025-02-20 17:58:00.093 +01:00 [DBG] Hosting stopped
+2025-02-20 17:59:48.383 +01:00 [DBG] Hosting starting
+2025-02-20 17:59:48.422 +01:00 [INF] User profile is available. Using 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-20 17:59:48.431 +01:00 [DBG] Reading data from file 'C:\Users\HAJAR\AppData\Local\ASP.NET\DataProtection-Keys\key-a4385413-e22b-41bb-8870-bf4449c3e508.xml'.
+2025-02-20 17:59:48.437 +01:00 [DBG] Found key {a4385413-e22b-41bb-8870-bf4449c3e508}.
+2025-02-20 17:59:48.447 +01:00 [DBG] Considering key {a4385413-e22b-41bb-8870-bf4449c3e508} with expiration date 2025-05-19 18:20:30Z as default key.
+2025-02-20 17:59:48.449 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:59:48.452 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-02-20 17:59:48.455 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-02-20 17:59:48.461 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-02-20 17:59:48.464 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-02-20 17:59:48.465 +01:00 [DBG] Using key {a4385413-e22b-41bb-8870-bf4449c3e508} as the default key.
+2025-02-20 17:59:48.466 +01:00 [DBG] Key ring with default key {a4385413-e22b-41bb-8870-bf4449c3e508} was loaded during application startup.
+2025-02-20 17:59:48.602 +01:00 [INF] Now listening on: http://localhost:5224
+2025-02-20 17:59:48.604 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-20 17:59:48.605 +01:00 [INF] Hosting environment: Development
+2025-02-20 17:59:48.606 +01:00 [INF] Content root path: D:\youssef\PFE\Warehouse-Managament-System\Backend\backend.api
+2025-02-20 17:59:48.606 +01:00 [DBG] Hosting started
+2025-02-20 18:00:41.980 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" accepted.
+2025-02-20 18:00:41.984 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" started.
+2025-02-20 18:00:42.137 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-02-20 18:00:42.210 +01:00 [DBG] The request path  does not match the path filter
+2025-02-20 18:00:43.460 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" completed keep alive response.
+2025-02-20 18:00:49.166 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" received FIN.
+2025-02-20 18:00:49.172 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-02-20 18:00:49.176 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" disconnecting.
+2025-02-20 18:00:49.180 +01:00 [DBG] Connection id "0HNAHQ0DUIH2O" stopped.

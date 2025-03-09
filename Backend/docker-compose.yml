@@ -1,0 +1,52 @@
+services:
+  
+  warehouse-db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "w@Reh0U$em@n@gemeT!2026"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - backend
+
+  warehouse-api:
+    image: ${DOCKER_REGISTRY}backendapi
+    build:
+      context: .
+      dockerfile: Backend.Api/Dockerfile
+    container_name: warehouse-api
+    depends_on:
+      - warehouse-db
+    ports:
+      - "5000:5000"
+      - "5001:5001" 
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+
+volumes:
+  sqlserver_data:  
+
+
+networks:
+  backend:
+    driver: bridge
+  

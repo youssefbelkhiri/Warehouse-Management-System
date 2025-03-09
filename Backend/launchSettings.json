@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "grafana": "StartWithoutDebugging",
+        "prometheus": "StartWithoutDebugging",
+        "warehouse-api": "StartDebugging",
+        "warehouse-db": "StartWithoutDebugging"
+      }
+    }
+  }
+}
