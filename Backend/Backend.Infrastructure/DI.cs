@@ -26,13 +26,13 @@ namespace Backend.Infrastructure
             SymmetricSecurityKey symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
             services.AddSingleton(symmetricSecurityKey);
 
-            // Configure DbContext
+
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
 
-            // Add Identity - this already sets up authentication schemes
+
             services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequiredLength = 6;
@@ -42,7 +42,6 @@ namespace Backend.Infrastructure
 
             
 
-            // Register custom services
             services.AddScoped<ITokenService, TokenService>();
 
 

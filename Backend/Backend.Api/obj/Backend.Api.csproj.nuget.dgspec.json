@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj": {}
+    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj": {}
   },
   "projects": {
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj": {
+    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj",
+        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj",
         "projectName": "Backend.Api",
-        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj",
+        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj",
         "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\obj\\",
+        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
