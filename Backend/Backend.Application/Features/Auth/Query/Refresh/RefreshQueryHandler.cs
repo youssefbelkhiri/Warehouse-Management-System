@@ -32,6 +32,8 @@ namespace Backend.Application.Features.Auth.Query.Refresh
             {
                 Token = await _tokenService.GenerateToken(user),
                 RefreshToken = request.RefreshToken,
+                RefreshTokenLifeTime = user.RefreshTokenExpiryTime,
+                AccessTokenLifeTime = DateTime.Now.AddDays(7)
             };
             return Result<LoginResponseDto>.Success(loginResponse);
 

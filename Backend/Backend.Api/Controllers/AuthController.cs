@@ -38,7 +38,11 @@ namespace Backend.Api.Controllers
                 return BadRequest("Incorrect Fields Format, Try Again");
             Result<LoginResponseDto> result = await _sender.Send(refreshRequest);
             if (!result.Succeeded) return BadRequest(result.Errors);
-            return Ok(result.Value);
+
+            SetCookie("AccessToken", result.Value.Token);
+            SetCookie("RefreshToken", result.Value.RefreshToken);
+
+            return Ok();
         }
 
         [Authorize]
@@ -65,7 +69,23 @@ namespace Backend.Api.Controllers
             LogoutCommand logoutCommand = new LogoutCommand(username);
             Result result = await _sender.Send(logoutCommand);
             if (!result.Succeeded) return BadRequest(result.Errors);
+            Response.Cookies.Delete("refreshToken");
+            Response.Cookies.Delete("AccessToken");
             return Ok(result.Message);
+        }
+
+
+        private void SetCookie(string TokenName , string Token)
+        {
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true,    // Prevent JavaScript access
+                Secure = true,      // Only send over HTTPS
+                SameSite = SameSiteMode.Strict, // Prevent CSRF attacks
+                Expires = DateTime.UtcNow.AddDays(7)
+            };
+
+            Response.Cookies.Append("refreshToken", Token, cookieOptions);
         }
 
     }

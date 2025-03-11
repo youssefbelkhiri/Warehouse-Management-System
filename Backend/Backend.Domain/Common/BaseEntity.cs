@@ -8,7 +8,7 @@ namespace Backend.Domain.Common
 {
     public class BaseEntity
     {
-        public string Id { get; set; } = null!;
+        public int Id { get; set; }
         public DateTime? CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }
     }

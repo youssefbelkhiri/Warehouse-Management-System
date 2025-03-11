@@ -1,0 +1,370 @@
+2025-03-11 12:30:48.212 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-03-11 12:30:50.203 +00:00 [DBG] The index {'ProductId'} was not created on entity type 'ProductTag' as the properties are already covered by the index {'ProductId', 'TagId'}.
+2025-03-11 12:30:50.209 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-03-11 12:30:50.212 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-03-11 12:30:51.094 +00:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-03-11 12:30:51.181 +00:00 [DBG] The index {'ProductId'} was not created on entity type 'ProductTag' as the properties are already covered by the index {'ProductId', 'TagId'}.
+2025-03-11 12:30:51.187 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-03-11 12:30:51.193 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-03-11 12:30:57.533 +00:00 [DBG] 'ApplicationDbContext' disposed.
+2025-03-11 12:31:17.430 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-03-11 12:31:17.766 +00:00 [DBG] The index {'ProductId'} was not created on entity type 'ProductTag' as the properties are already covered by the index {'ProductId', 'TagId'}.
+2025-03-11 12:31:17.769 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-03-11 12:31:17.770 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-03-11 12:31:17.951 +00:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-03-11 12:31:18.038 +00:00 [DBG] Creating DbConnection.
+2025-03-11 12:31:20.223 +00:00 [DBG] Created DbConnection. (2179ms).
+2025-03-11 12:31:20.230 +00:00 [DBG] Migrating using database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:31:20.300 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:31:55.426 +00:00 [DBG] An error occurred using the connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:31:55.441 +00:00 [DBG] 'ApplicationDbContext' disposed.
+2025-03-11 12:31:55.446 +00:00 [DBG] Disposing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:31:55.478 +00:00 [DBG] Disposed connection to database '' on server '' (27ms).
+2025-03-11 12:34:07.285 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-03-11 12:34:07.617 +00:00 [DBG] The index {'ProductId'} was not created on entity type 'ProductTag' as the properties are already covered by the index {'ProductId', 'TagId'}.
+2025-03-11 12:34:07.623 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-03-11 12:34:07.624 +00:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-03-11 12:34:07.842 +00:00 [DBG] Entity Framework Core 8.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.0' with options: None
+2025-03-11 12:34:07.866 +00:00 [DBG] Creating DbConnection.
+2025-03-11 12:34:07.895 +00:00 [DBG] Created DbConnection. (27ms).
+2025-03-11 12:34:07.906 +00:00 [DBG] Migrating using database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:07.913 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.164 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.173 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:09.213 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (40ms).
+2025-03-11 12:34:09.219 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (48ms).
+2025-03-11 12:34:09.231 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-11 12:34:09.439 +00:00 [INF] Executed DbCommand (160ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-11 12:34:09.444 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.454 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (6ms).
+2025-03-11 12:34:09.458 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-03-11 12:34:09.459 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-03-11 12:34:09.461 +00:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2025-03-11 12:34:09.463 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.468 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.471 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-11 12:34:09.658 +00:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-11 12:34:09.660 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.661 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (0ms).
+2025-03-11 12:34:09.662 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.663 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.665 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:09.667 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:09.669 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:09.671 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-11 12:34:09.675 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-11 12:34:09.698 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.703 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (5ms).
+2025-03-11 12:34:09.712 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-03-11 12:34:09.717 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2025-03-11 12:34:09.721 +00:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (9ms).
+2025-03-11 12:34:09.727 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.734 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.739 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-11 12:34:09.751 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-11 12:34:09.759 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.767 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (7ms).
+2025-03-11 12:34:09.808 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.813 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.815 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-03-11 12:34:09.816 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-03-11 12:34:09.819 +00:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2025-03-11 12:34:09.821 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-11 12:34:09.925 +00:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-11 12:34:09.931 +00:00 [DBG] Closing data reader to 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.935 +00:00 [DBG] A data reader for 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' is being disposed after spending 4ms reading results.
+2025-03-11 12:34:09.938 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:09.942 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (4ms).
+2025-03-11 12:34:09.954 +00:00 [INF] Applying migration '20250311123057_addEntities'.
+2025-03-11 12:34:10.074 +00:00 [DBG] Executing 3 update commands as a batch.
+2025-03-11 12:34:10.082 +00:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:10.085 +00:00 [DBG] Opened connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:10.090 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-03-11 12:34:10.106 +00:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-03-11 12:34:10.109 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.110 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-03-11 12:34:10.113 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:10.114 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'07070567-ed86-4a90-ab8c-0afe28d43f34';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.370 +00:00 [INF] Executed DbCommand (256ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'07070567-ed86-4a90-ab8c-0afe28d43f34';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.382 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.385 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:10.387 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-03-11 12:34:10.392 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'659e2675-5865-4c9d-be71-76e3e82d9e64';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.404 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'659e2675-5865-4c9d-be71-76e3e82d9e64';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.410 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.411 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-03-11 12:34:10.412 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:10.414 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'70ffe268-3a62-4096-be34-0988c2d183ba';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.425 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetRoles]
+WHERE [Id] = N'70ffe268-3a62-4096-be34-0988c2d183ba';
+SELECT @@ROWCOUNT;
+2025-03-11 12:34:10.430 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.431 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:10.433 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:10.437 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [DefaultUnit] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-03-11 12:34:10.489 +00:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [DefaultUnit] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-03-11 12:34:10.502 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.506 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-03-11 12:34:10.508 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2025-03-11 12:34:10.512 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tags] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Tags] PRIMARY KEY ([Id])
+);
+2025-03-11 12:34:10.520 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tags] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Tags] PRIMARY KEY ([Id])
+);
+2025-03-11 12:34:10.528 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.530 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:10.533 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-03-11 12:34:10.535 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [CategoryId] int NOT NULL,
+    [DefaultQuantityUnit] nvarchar(50) NOT NULL,
+    [HasDetails] bit NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Products_Categories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.545 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(100) NOT NULL,
+    [CategoryId] int NOT NULL,
+    [DefaultQuantityUnit] nvarchar(50) NOT NULL,
+    [HasDetails] bit NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Products_Categories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.551 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.552 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:10.554 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:10.555 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Movements] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementType] nvarchar(10) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [ProductId] int NOT NULL,
+    [TotalQuantity] int NOT NULL,
+    CONSTRAINT [PK_Movements] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Movements_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.564 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Movements] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementType] nvarchar(10) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [ProductId] int NOT NULL,
+    [TotalQuantity] int NOT NULL,
+    CONSTRAINT [PK_Movements] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Movements_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.569 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.572 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:10.574 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-03-11 12:34:10.576 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductExtra] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NOT NULL,
+    [Attribute] nvarchar(100) NOT NULL,
+    [Value] nvarchar(255) NOT NULL,
+    CONSTRAINT [PK_ProductExtra] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_ProductExtra_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.581 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductExtra] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NOT NULL,
+    [Attribute] nvarchar(100) NOT NULL,
+    [Value] nvarchar(255) NOT NULL,
+    CONSTRAINT [PK_ProductExtra] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_ProductExtra_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.583 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.585 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:10.587 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:10.591 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductTag] (
+    [ProductId] int NOT NULL,
+    [TagId] int NOT NULL,
+    CONSTRAINT [PK_ProductTag] PRIMARY KEY ([ProductId], [TagId]),
+    CONSTRAINT [FK_ProductTag_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_ProductTag_Tags_TagId] FOREIGN KEY ([TagId]) REFERENCES [Tags] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.609 +00:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductTag] (
+    [ProductId] int NOT NULL,
+    [TagId] int NOT NULL,
+    CONSTRAINT [PK_ProductTag] PRIMARY KEY ([ProductId], [TagId]),
+    CONSTRAINT [FK_ProductTag_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_ProductTag_Tags_TagId] FOREIGN KEY ([TagId]) REFERENCES [Tags] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.620 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.626 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-03-11 12:34:10.631 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-03-11 12:34:10.639 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovementLine] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementId] int NOT NULL,
+    [Quantity] int NOT NULL,
+    [Unit] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_MovementLine] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MovementLine_Movements_MovementId] FOREIGN KEY ([MovementId]) REFERENCES [Movements] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.649 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovementLine] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementId] int NOT NULL,
+    [Quantity] int NOT NULL,
+    [Unit] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_MovementLine] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MovementLine_Movements_MovementId] FOREIGN KEY ([MovementId]) REFERENCES [Movements] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.659 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.665 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-03-11 12:34:10.672 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (12ms).
+2025-03-11 12:34:10.677 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovementLineDetail] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementLineId] int NOT NULL,
+    [SerialNumber] nvarchar(100) NOT NULL,
+    [ExpirationDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_MovementLineDetail] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MovementLineDetail_MovementLine_MovementLineId] FOREIGN KEY ([MovementLineId]) REFERENCES [MovementLine] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.690 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MovementLineDetail] (
+    [Id] int NOT NULL IDENTITY,
+    [MovementLineId] int NOT NULL,
+    [SerialNumber] nvarchar(100) NOT NULL,
+    [ExpirationDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_MovementLineDetail] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_MovementLineDetail_MovementLine_MovementLineId] FOREIGN KEY ([MovementLineId]) REFERENCES [MovementLine] ([Id]) ON DELETE CASCADE
+);
+2025-03-11 12:34:10.696 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:10.700 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:10.704 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-03-11 12:34:10.706 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'01898c31-6adc-447c-8de9-0d1ebf9631fb', NULL, N'SuperAdmin', N'SUPERADMIN'),
+(N'74aa891d-e538-4e34-81a8-45b9aea2c983', NULL, N'Admin', N'ADMIN'),
+(N'f3786cec-5305-4a8a-bac5-7de35bc278ff', NULL, N'visiter', N'VISITER');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2025-03-11 12:34:11.004 +00:00 [INF] Executed DbCommand (298ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'01898c31-6adc-447c-8de9-0d1ebf9631fb', NULL, N'SuperAdmin', N'SUPERADMIN'),
+(N'74aa891d-e538-4e34-81a8-45b9aea2c983', NULL, N'Admin', N'ADMIN'),
+(N'f3786cec-5305-4a8a-bac5-7de35bc278ff', NULL, N'visiter', N'VISITER');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+2025-03-11 12:34:11.012 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.013 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-03-11 12:34:11.014 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.017 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MovementLine_MovementId] ON [MovementLine] ([MovementId]);
+2025-03-11 12:34:11.028 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MovementLine_MovementId] ON [MovementLine] ([MovementId]);
+2025-03-11 12:34:11.037 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.039 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.044 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-03-11 12:34:11.046 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MovementLineDetail_MovementLineId] ON [MovementLineDetail] ([MovementLineId]);
+2025-03-11 12:34:11.053 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_MovementLineDetail_MovementLineId] ON [MovementLineDetail] ([MovementLineId]);
+2025-03-11 12:34:11.062 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.063 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:11.064 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.066 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Movements_ProductId] ON [Movements] ([ProductId]);
+2025-03-11 12:34:11.071 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Movements_ProductId] ON [Movements] ([ProductId]);
+2025-03-11 12:34:11.073 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.074 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:11.075 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.077 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductExtra_ProductId] ON [ProductExtra] ([ProductId]);
+2025-03-11 12:34:11.080 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductExtra_ProductId] ON [ProductExtra] ([ProductId]);
+2025-03-11 12:34:11.082 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.083 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:11.086 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-03-11 12:34:11.087 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_CategoryId] ON [Products] ([CategoryId]);
+2025-03-11 12:34:11.091 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_CategoryId] ON [Products] ([CategoryId]);
+2025-03-11 12:34:11.093 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.094 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-03-11 12:34:11.096 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.097 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductTag_TagId] ON [ProductTag] ([TagId]);
+2025-03-11 12:34:11.138 +00:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductTag_TagId] ON [ProductTag] ([TagId]);
+2025-03-11 12:34:11.141 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-03-11 12:34:11.142 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-03-11 12:34:11.143 +00:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-03-11 12:34:11.144 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250311123057_addEntities', N'8.0.0');
+2025-03-11 12:34:11.193 +00:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250311123057_addEntities', N'8.0.0');
+2025-03-11 12:34:11.205 +00:00 [DBG] Committing transaction.
+2025-03-11 12:34:11.214 +00:00 [DBG] Committed transaction.
+2025-03-11 12:34:11.219 +00:00 [DBG] Disposing transaction.
+2025-03-11 12:34:11.221 +00:00 [DBG] Closing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:11.223 +00:00 [DBG] Closed connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS' (2ms).
+2025-03-11 12:34:11.227 +00:00 [DBG] 'ApplicationDbContext' disposed.
+2025-03-11 12:34:11.232 +00:00 [DBG] Disposing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-03-11 12:34:11.239 +00:00 [DBG] Disposed connection to database '' on server '' (6ms).
