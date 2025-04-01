@@ -1,4 +1,5 @@
-﻿using Backend.Api.Extensions;
+﻿using Backend.Api.Controllers.Common;
+using Backend.Api.Extensions;
 using Backend.Application.Dtos.AuthDtos;
 using Backend.Application.Features.Auth.Command.ChangePassword;
 using Backend.Application.Features.Auth.Command.Login;
@@ -14,12 +15,10 @@ namespace Backend.Api.Controllers
 {
     [ApiController]
     [Route("/api/[controller]/")]
-    public class AuthController : ControllerBase
+    public class AuthController : BaseApiController
     {
-        private readonly ISender _sender;
-        public AuthController(ISender sender)
+        public AuthController(ISender sender) : base(sender)
         {
-            _sender = sender;
         }
         [HttpPost("login")]
 

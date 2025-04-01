@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\CategoryManager\Queries\" />
+    <Folder Include="Features\MovementLineManager\" />
+    <Folder Include="Features\MovemenetLineDetails\" />
+    <Folder Include="Features\MovementManager\Queries\" />
+    <Folder Include="Features\ProductExtraManager\" />
+    <Folder Include="Features\TagManager\Queries\" />
     <Folder Include="Features\Users\Queries\" />
   </ItemGroup>
 

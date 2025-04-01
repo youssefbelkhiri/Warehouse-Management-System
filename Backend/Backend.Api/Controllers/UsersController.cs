@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices;
+using Backend.Api.Controllers.Common;
 using Backend.Application.Features.Users.Command.CreateUser;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -8,12 +9,10 @@ namespace Backend.Api.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController : BaseApiController
     {
-        private readonly ISender _sender;
-        public UsersController(ISender sender)
+        public UsersController(ISender sender) : base(sender)
         {
-            _sender = sender;
         }
 
         [HttpPost]

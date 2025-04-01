@@ -1,0 +1,13 @@
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.deps.json
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.pdb
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.AssemblyReference.cache
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfoInputs.cache
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfo.cs
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.CoreCompileInputs.cache
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.sourcelink.json
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\refint\Backend.Domain.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.pdb
+D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\ref\Backend.Domain.dll

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 using Backend.Application.Services.Security;
 using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
+using Backend.Domain.Interfaces.common;
 using Backend.Infrastructure.Context;
 using Backend.Infrastructure.Repositories;
+using Backend.Infrastructure.Repositories.Common;
 using Backend.Infrastructure.Services.Security;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -43,6 +45,9 @@ namespace Backend.Infrastructure
             
 
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped(typeof(ITRepository<>), typeof(TRepositroy<>));
+            services.AddScoped<ICategoryRepository , CategoryRepository>();
+            services.AddScoped<IUnityOfWork, UnityOfWork>();
 
 
             return services;

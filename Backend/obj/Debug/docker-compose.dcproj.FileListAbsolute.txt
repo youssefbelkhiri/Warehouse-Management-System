@@ -111,7 +111,6 @@ D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.EntityFra
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Serilog.Extensions.Logging.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
-D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.DependencyModel.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.IdentityModel.Logging.dll
@@ -127,3 +126,9 @@ D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Backend.Infrastruct
 D:\youssef\PFE\Warehouse-Management-System\Backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 D:\youssef\PFE\Warehouse-Management-System\Backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\youssef\PFE\Warehouse-Management-System\Backend\obj\Debug\docker-c.35A3FFBA.Up2Date
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\youssef\PFE\Warehouse-Management-System\Backend\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll

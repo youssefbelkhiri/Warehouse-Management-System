@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Backend.Domain.Interfaces.common
 {
-    internal class IUnityOfWork
+    public interface IUnityOfWork
     {
+        Task SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }
