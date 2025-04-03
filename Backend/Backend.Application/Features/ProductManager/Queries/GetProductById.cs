@@ -11,22 +11,22 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public sealed class GetMovementByIdQuery : IQuery<GetMovementByIdDto>
-    {
-        public int Id { get; set; }
-    }
+        public sealed class GetProductByIdQuery : IQuery<GetProductByIdDto>
+        {
+            public int Id { get; set; }
+        }
     
 
-        internal sealed class GetMovementByIdQueryHanlder : IQueryHandler<GetMovementByIdQuery, GetMovementByIdDto>
+        internal sealed class GetProductByIdQueryHanlder : IQueryHandler<GetProductByIdQuery, GetProductByIdDto>
         {
         private readonly ICategoryRepository _repository;
 
-        public GetMovementByIdQueryHanlder(ICategoryRepository repository)
+        public GetProductByIdQueryHanlder(ICategoryRepository repository)
         {
             _repository = repository;
         }
 
-        public Task<Result<GetMovementByIdDto>> Handle(GetMovementByIdQuery request, CancellationToken cancellationToken)
+        public Task<Result<GetProductByIdDto>> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }

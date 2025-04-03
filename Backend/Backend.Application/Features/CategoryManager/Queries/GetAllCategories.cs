@@ -10,37 +10,37 @@ using Backend.Domain.Interfaces;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public class GetAllCategoriesQuery : IQuery<GetAllResponse>
+    public class GetAllCategoriesQuery : IQuery<GetAllCategoriesResponse>
     {
     }
 
-    public  class GetAllResponse
+    public  class GetAllCategoriesResponse
     {
         public List<Category> categoriesResponse { get; set; } = new List<Category> { new Category() };
     }
 
-    internal sealed class GetAllCategoriesQueryHandler : IQueryHandler<GetAllCategoriesQuery, GetAllResponse>
+    internal sealed class GetAllCategoriesQueryHandler : IQueryHandler<GetAllCategoriesQuery, GetAllCategoriesResponse>
     {
         private readonly ICategoryRepository _categoryRepository;
         public GetAllCategoriesQueryHandler(ICategoryRepository categoryRepository) 
         {
             _categoryRepository = categoryRepository;
         }
-        public async Task<Result<GetAllResponse>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetAllCategoriesResponse>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
         {
             List<Category> categories = await _categoryRepository.GetAll();
             if (categories == null) 
             {
-                return Result<GetAllResponse>.Failure(["there is no category"]);
+                return Result<GetAllCategoriesResponse>.Failure(["there is no category"]);
             }
 
-            GetAllResponse response = new GetAllResponse
+            GetAllCategoriesResponse response = new GetAllCategoriesResponse
             {
                 categoriesResponse = categories
             };
 
 
-            return Result<GetAllResponse>.Success(response);
+            return Result<GetAllCategoriesResponse>.Success(response);
         }
     }
 }

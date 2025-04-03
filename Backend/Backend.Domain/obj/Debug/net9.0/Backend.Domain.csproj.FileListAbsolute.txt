@@ -11,3 +11,16 @@ D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9
 D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\refint\Backend.Domain.dll
 D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.pdb
 D:\youssef\PFE\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\ref\Backend.Domain.dll
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.deps.json
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.dll
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.pdb
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfoInputs.cache
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfo.cs
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.sourcelink.json
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.dll
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\refint\Backend.Domain.dll
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.pdb
+C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\ref\Backend.Domain.dll

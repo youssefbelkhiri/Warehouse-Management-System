@@ -11,35 +11,35 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public sealed class GetCategoryByIdQuery : IQuery<GetMovementByIdDto>
+    public sealed class GetTagByIdQuery : IQuery<GetTagByIdDto>
     {
         public int Id { get; set; }
     }
     
 
-        internal sealed class GetCategiryByIdQueryHanlder : IQueryHandler<GetCategoryByIdQuery, GetMovementByIdDto>
+        internal sealed class GetTagByIdQueryHanlder : IQueryHandler<GetTagByIdQuery, GetTagByIdDto>
         {
         private readonly ICategoryRepository _repository;
 
-        public GetCategiryByIdQueryHanlder(ICategoryRepository repository)
+        public GetTagByIdQueryHanlder(ICategoryRepository repository)
         {
             _repository = repository;
         }
 
-        public async Task<Result<GetMovementByIdDto>> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetTagByIdDto>> Handle(GetTagByIdQuery request, CancellationToken cancellationToken)
         {
             Category category = await _repository.GetById(request.Id);
             if (category == null)
             {
-                return Result<GetMovementByIdDto>.Failure(["Category not found"]);
+                return Result<GetTagByIdDto>.Failure(["Category not found"]);
             }
-            GetMovementByIdDto categoryByIdDto = new GetMovementByIdDto
+            GetTagByIdDto categoryByIdDto = new GetTagByIdDto
             {
                 Id = category.Id,
                 Name = category.Name,
                 DefaultUnit = category.DefaultUnit,
             };
-            return Result<GetMovementByIdDto>.Success(categoryByIdDto);
+            return Result<GetTagByIdDto>.Success(categoryByIdDto);
         }
     }
 }

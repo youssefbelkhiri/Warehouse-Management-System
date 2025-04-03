@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CategoryManager\Queries\" />
     <Folder Include="Features\MovementLineManager\" />
     <Folder Include="Features\MovemenetLineDetails\" />
     <Folder Include="Features\MovementManager\Queries\" />

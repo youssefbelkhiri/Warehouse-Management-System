@@ -16,7 +16,7 @@ namespace Backend.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll() 
         {
-            Result<GetAllResponse> response = await _sender.Send(new GetAllCategoriesQuery());
+            Result<GetAllCategoriesResponse> response = await _sender.Send(new GetAllCategoriesQuery());
             if (!response.Succeeded)
             {
                 return NotFound(response.Errors);

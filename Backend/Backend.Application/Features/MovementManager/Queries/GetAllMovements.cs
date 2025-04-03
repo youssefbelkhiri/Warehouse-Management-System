@@ -10,7 +10,7 @@ using Backend.Domain.Interfaces;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public class GetAllMovementsQuery : IQuery<GetAllResponse>
+    public class GetAllMovementsQuery : IQuery<GetAllMovementsResponse>
     {
     }
 
@@ -19,28 +19,17 @@ namespace Backend.Application.Features.CategoryManager.Queries
         public List<Movement> MovementsResponse { get; set; } = new List<Movement> { new Movement() };
     }
 
-    internal sealed class GetAllMovementsQueryHandler : IQueryHandler<GetAllCategoriesQuery, GetAllResponse>
+    internal sealed class GetAllMovementsQueryHandler : IQueryHandler<GetAllMovementsQuery, GetAllMovementsResponse>
     {
         private readonly ICategoryRepository _categoryRepository;
         public GetAllMovementsQueryHandler(ICategoryRepository categoryRepository) 
         {
             _categoryRepository = categoryRepository;
         }
-        public async Task<Result<GetAllResponse>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
+
+        public Task<Result<GetAllMovementsResponse>> Handle(GetAllMovementsQuery request, CancellationToken cancellationToken)
         {
-            List<Category> categories = await _categoryRepository.GetAll();
-            if (categories == null) 
-            {
-                return Result<GetAllResponse>.Failure(["there is no category"]);
-            }
-
-            GetAllResponse response = new GetAllResponse
-            {
-                categoriesResponse = categories
-            };
-
-
-            return Result<GetAllResponse>.Success(response);
+            throw new NotImplementedException();
         }
     }
 }

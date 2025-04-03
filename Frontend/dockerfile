@@ -1,0 +1,23 @@
+FROM node:18 AS build-stage
+
+WORKDIR /app
+
+# Copier package.json et package-lock.json pour éviter de re-télécharger les dépendances si le code ne change pas
+COPY Frontend/package.json Frontend/package-lock.json ./Frontend/
+
+WORKDIR /app/Frontend
+
+RUN npm install --legacy-peer-deps
+
+# Copier tout le projet après npm install
+COPY Frontend/ ./
+
+RUN npm run build --prod
+
+FROM nginx:alpine AS production-stage
+
+COPY --from=build-stage /app/Frontend/dist/ /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

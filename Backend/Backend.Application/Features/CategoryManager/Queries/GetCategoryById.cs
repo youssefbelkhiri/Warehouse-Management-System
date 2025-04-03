@@ -11,17 +11,17 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public sealed class GetCategoryByIdQuery : IQuery<GetCategoryByIdDto>
-    {
-        public int Id { get; set; }
-    }
-    
+        public sealed class GetCategoryByIdQuery : IQuery<GetCategoryByIdDto>
+        {
+            public int Id { get; set; }
+        }
 
-        internal sealed class GetCategiryByIdQueryHanlder : IQueryHandler<GetCategoryByIdQuery, GetCategoryByIdDto>
+
+    internal sealed class GetCategoryByIdQueryHandler : IQueryHandler<GetCategoryByIdQuery, GetCategoryByIdDto>
         {
         private readonly ICategoryRepository _repository;
 
-        public GetCategiryByIdQueryHanlder(ICategoryRepository repository)
+        public GetCategoryByIdQueryHandler(ICategoryRepository repository)
         {
             _repository = repository;
         }

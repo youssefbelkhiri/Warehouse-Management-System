@@ -10,37 +10,37 @@ using Backend.Domain.Interfaces;
 
 namespace Backend.Application.Features.CategoryManager.Queries
 {
-    public class GetAllCategoriesQuery : IQuery<GetAllResponse>
+    public class GetAllTagsQuery : IQuery<GetAllTagResponse>
     {
     }
 
-    public  class GetAllResponse
+    public  class GetAllTagResponse
     {
         public List<Category> categoriesResponse { get; set; } = new List<Category> { new Category() };
     }
 
-    internal sealed class GetAllCategoriesQueryHandler : IQueryHandler<GetAllCategoriesQuery, GetAllResponse>
+    internal sealed class GetAllTagsQueryHandler : IQueryHandler<GetAllTagsQuery, GetAllTagResponse>
     {
         private readonly ICategoryRepository _categoryRepository;
-        public GetAllCategoriesQueryHandler(ICategoryRepository categoryRepository) 
+        public GetAllTagsQueryHandler(ICategoryRepository categoryRepository) 
         {
             _categoryRepository = categoryRepository;
         }
-        public async Task<Result<GetAllResponse>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetAllTagResponse>> Handle(GetAllTagsQuery request, CancellationToken cancellationToken)
         {
             List<Category> categories = await _categoryRepository.GetAll();
             if (categories == null) 
             {
-                return Result<GetAllResponse>.Failure(["there is no category"]);
+                return Result<GetAllTagResponse>.Failure(["there is no category"]);
             }
 
-            GetAllResponse response = new GetAllResponse
+            GetAllTagResponse response = new GetAllTagResponse
             {
                 categoriesResponse = categories
             };
 
 
-            return Result<GetAllResponse>.Success(response);
+            return Result<GetAllTagResponse>.Success(response);
         }
     }
 }

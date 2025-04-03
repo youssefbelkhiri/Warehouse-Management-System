@@ -1,7 +1,0 @@
-services:
-  warehouse-api:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=5000
-    ports:
-      - "5000"

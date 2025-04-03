@@ -17,7 +17,7 @@ services:
     image: ${DOCKER_REGISTRY}backendapi
     build:
       context: .
-      dockerfile: Backend.Api/Dockerfile
+      dockerfile: Backend/Backend.Api/Dockerfile
     container_name: warehouse-api
     depends_on:
       - warehouse-db
@@ -25,13 +25,25 @@ services:
       - "5000:5000"
       - "5001:5001" 
 
-  prometheus:
-    image: prom/prometheus
-    container_name: prometheus
+  angular-app:
+    build:
+      context: .
+      dockerfile: Frontend/Dockerfile 
+    container_name: angular-app
     ports:
-      - "9090:9090"
-    volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - "4200:80" 
+    depends_on:
+      - warehouse-api
+    networks:
+      - backend
+
+  # prometheus:
+  #   image: prom/prometheus
+  #   container_name: prometheus
+  #   ports:
+  #     - "9090:9090"
+  #   volumes:
+  #     - ./prometheus.yml:/etc/prometheus/prometheus.yml
 
   grafana:
     image: grafana/grafana
