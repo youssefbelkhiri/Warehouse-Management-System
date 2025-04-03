@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj": {}
+    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj": {}
   },
   "projects": {
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj": {
+    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj",
         "projectName": "Backend.Api",
-        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\Backend.Api.csproj",
-        "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\backend.api\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Api\\Backend.Api.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HAJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
-                "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj"
+              "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj"
               },
-              "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj": {
-                "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj"
+              "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -103,24 +104,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
+    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj",
         "projectName": "Backend.Application",
-        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj",
-        "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HAJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,14 +130,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
-                "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+              "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj"
               }
             }
           }
@@ -151,7 +153,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -186,24 +188,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
         "projectName": "Backend.Domain",
-        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
-        "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HAJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -212,6 +214,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -230,7 +233,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -257,24 +260,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj": {
+    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj",
         "projectName": "Backend.Infrastructure",
-        "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-        "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\Backend.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HAJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -283,17 +286,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
-                "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj"
+              "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Application\\Backend.Application.csproj"
               },
-              "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
-                "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+              "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj"
               }
             }
           }
@@ -308,7 +312,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -359,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

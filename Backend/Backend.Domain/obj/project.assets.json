@@ -792,23 +792,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HAJAR\\.nuget\\packages\\": {},
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
       "projectName": "Backend.Domain",
-      "projectPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
-      "packagesPath": "C:\\Users\\HAJAR\\.nuget\\packages\\",
-      "outputPath": "D:\\youssef\\PFE\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
+      "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HAJAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -817,6 +817,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -835,7 +836,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -862,7 +863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,85 @@
+name: dockercompose272842214436815139
+services:
+  grafana:
+    container_name: grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_SECURITY_ADMIN_USER: admin
+    image: grafana/grafana
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3000
+        published: "3000"
+        protocol: tcp
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 9090
+        published: "9090"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\prometheus.yml
+        target: /etc/prometheus/prometheus.yml
+        bind:
+          create_host_path: true
+  warehouse-api:
+    build:
+      context: C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend
+      dockerfile: Backend.Api/Dockerfile
+    container_name: warehouse-api
+    depends_on:
+      warehouse-db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "5000"
+    image: backendapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 5001
+        published: "5001"
+        protocol: tcp
+      - mode: ingress
+        target: 5000
+        protocol: tcp
+  warehouse-db:
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: w@Reh0U@n@gemeT!2026
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlserver_data
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  backend:
+    name: dockercompose272842214436815139_backend
+    driver: bridge
+  default:
+    name: dockercompose272842214436815139_default
+volumes:
+  sqlserver_data:
+    name: dockercompose272842214436815139_sqlserver_data
