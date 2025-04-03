@@ -1,25 +1,31 @@
-.nav-tabs {
-  border-bottom: none !important;
-}
-body.berry-dark .nav-tabs .nav-link,
-body.berry-dark .tab-content {
-  box-shadow: none !important;
-  background: none !important;
+.card {
+  .card-body.dashboard-card {
+    padding: 18px;
+    padding-bottom: 20px;
+  }
 }
 
-.earning-card {
-  .round {
-    &.secondary-round {
-      background: #4527a0;
+.user-group {
+  img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 2;
+    transition: all 0.1s ease-in-out;
+    border: 2px solid var(--bs-white);
+    + img {
+      margin-left: -14px;
     }
-    &.primary-round {
-      background: #1565c0;
+    &:hover {
+      z-index: 5;
     }
   }
 }
 
-.total-income-card {
-  .avatar {
-    background: #1565c0;
-  }
+.badge-circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }

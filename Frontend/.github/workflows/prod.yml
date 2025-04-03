@@ -1,4 +1,4 @@
-name: Node - SSH deploy
+name: Prod deploy
 
 # Controls when the action will run.
 on:
@@ -20,10 +20,10 @@ jobs:
 
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js 20
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v3
         with:
           node-version: '20.x'
 
@@ -31,7 +31,6 @@ jobs:
         run: |
           yarn
           yarn build-prod
-
       - name: 📂 Deploy to Server
         uses: easingthemes/ssh-deploy@main
         env:
@@ -39,6 +38,6 @@ jobs:
           # ARGS: "-rltgoDzvO --delete"
           SOURCE: 'dist/'
           REMOTE_HOST: 192.34.62.123
-          REMOTE_USER: berry
+          REMOTE_USER: mantis
           TARGET: public_html/angular/free
           EXCLUDE: '/node_modules/'

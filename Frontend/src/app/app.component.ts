@@ -1,3 +1,4 @@
+// angular import
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SpinnerComponent } from './theme/shared/components/spinner/spinner.component';
@@ -9,5 +10,6 @@ import { SpinnerComponent } from './theme/shared/components/spinner/spinner.comp
   imports: [RouterOutlet, SpinnerComponent]
 })
 export class AppComponent {
-  title = 'Berry Angular Free Version';
+  // public props
+  title = 'mantis-free-version';
 }

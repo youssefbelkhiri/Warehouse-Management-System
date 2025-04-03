@@ -1,126 +1,118 @@
 <div class="row">
-  <div class="col-xl-4 col-md-6">
-    <div class="card earning-card bg-secondary-dark text-white overflow-hidden">
-      <span class="round secondary-round small"></span>
-      <span class="round secondary-round big"></span>
-      <div class="card-body">
-        <div class="row">
-          <div class="col">
-            <div class="avatar avatar-lg">
-              <i class="text-white ti ti-credit-card f-24"></i>
-            </div>
-          </div>
-          <div class="col-auto">
-            <div class="btn-group" ngbDropdown>
-              <a type="button" class="avatar avatar-xs bg-secondary dropdown-toggle arrow-none" ngbDropdownToggle>
-                <i class="ti ti-dots"></i>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" ngbDropdownMenu>
-                <li><button class="dropdown-item" type="button">Import Card</button></li>
-                <li><button class="dropdown-item" type="button">Export</button></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <span class="text-white d-block f-34 f-w-500 my-2">
-          $500.00
-          <i class="ti ti-circle-arrow-up-right opacity-50"></i>
-        </span>
-        <p class="mb-0 opacity-50">Total Earning</p>
-      </div>
+  @for (analytic of AnalyticEcommerce; track analytic) {
+    <div class="col-md-6 col-xl-3">
+      <app-card [showHeader]="false" blockClass="dashboard-card">
+        <h6 class="mb-2 f-w-400 text-muted">{{ analytic.title }}</h6>
+        <h4 class="mb-3">
+          {{ analytic.amount }}
+          <span class="badge {{ analytic.background }} border {{ analytic.border }} ">
+            <i antIcon type="{{ analytic.icon }}" theme="outline"></i>
+            {{ analytic.percentage }}
+          </span>
+        </h4>
+        <p class="mb-0 text-muted text-sm">
+          You made an extra
+          <span class="{{ analytic.color }}">{{ analytic.number }}</span>
+          this year
+        </p>
+      </app-card>
     </div>
+  }
+  <div class="col-md-12 col-xl-8">
+    <app-monthly-bar-chart />
   </div>
-  <div class="col-xl-4 col-md-6">
-    <div class="card earning-card bg-primary-dark text-white overflow-hidden">
-      <span class="round primary-round small"></span>
-      <span class="round primary-round big"></span>
-      <div class="card-body">
-        <app-chart-data-month />
-      </div>
-    </div>
-  </div>
-  <div class="col-xl-4 col-md-12">
-    <div class="card total-income-card overflow-hidden bg-primary-dark text-white">
-      <div class="card-body">
-        <div class="d-flex align-items-center">
-          <div class="avatar avatar-lg icon m-r-5">
-            <i class="text-white ti ti-layout-board-split f-24"></i>
-          </div>
-          <div class="ms-2">
-            <h4 class="text-white f-w-600 mb-1">$203k</h4>
-            <p class="mb-0 opacity-50 text-sm">Total Income</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card total-income-card warning overflow-hidden">
-      <div class="card-body">
-        <div class="d-flex align-items-center">
-          <div class="avatar avatar-lg icon-warning m-r-5">
-            <i class="text-warning ti ti-layout-board-split f-24"></i>
-          </div>
-          <div class="ms-2">
-            <h4 class="f-w-600 mb-1">$203k</h4>
-            <p class="mb-0 opacity-50 text-sm">Total Income</p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="col-md-12 col-xl-4">
+    <app-income-overview-chart />
   </div>
 
-  <div class="col-xl-8 col-md-12">
-    <app-bar-chart />
+  <div class="col-md-12 col-xl-8">
+    <h5 class="mb-3">Recent Orders</h5>
+    <div class="card tbl-card">
+      <div class="table-responsive">
+        <table class="table table-hover mb-0">
+          <thead>
+            <tr>
+              <th>TRACKING NO.</th>
+              <th>PRODUCT NAME</th>
+              <th>STATUS</th>
+              <th class="text-end">TOTAL ORDER</th>
+              <th class="text-end">TOTAL AMOUNT</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (order of recentOrder; track order) {
+              <tr>
+                <td>
+                  <a href="javascript:" class="text-muted">{{ order.id }}</a>
+                </td>
+                <td>{{ order.name }}</td>
+                <td>
+                  <span class="d-block">
+                    <i class="badge-circle {{ order.status_type }} f-10 m-r-5"></i>
+                    {{ order.status }}
+                  </span>
+                </td>
+                <td class="text-end">{{ order.quantity }}</td>
+                <td class="text-end">{{ order.amount }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-  <div class="col-xl-4 col-md-12">
+  <div class="col-md-12 col-xl-4">
+    <app-analytics-chart />
+  </div>
+
+  <div class="col-md-12 col-xl-8">
+    <app-sales-report-chart />
+  </div>
+  <div class="col-md-12 col-xl-4">
+    <h5 class="mb-3">Transaction History</h5>
     <div class="card">
-      <div class="card-body">
-        <div class="row mb-3 align-items-center">
-          <div class="col">
-            <h4>Popular Stocks</h4>
-          </div>
-          <div class="col-auto"></div>
-        </div>
-        <div class="rounded bg-light-secondary overflow-hidden mb-3">
-          <div class="px-3 pt-3">
-            <div class="row mb-1 align-items-start">
-              <div class="col">
-                <h5 class="text-secondary mb-0">Bajaj Finery</h5>
-                <small class="text-muted">10% Profit</small>
+      <div class="list-group list-group-flush">
+        @for (history of transaction; track history) {
+          <a href="javascript:" class="list-group-item list-group-item-action px-3">
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <div class="avatar avatar-s rounded-circle {{ history.background }}">
+                  <i class="f-16" antIcon type="{{ history.icon }}" theme="outline"></i>
+                </div>
               </div>
-              <div class="col-auto">
-                <h4 class="mb-0">$1839.00</h4>
+              <div class="flex-grow-1 ms-3">
+                <h6 class="mb-1">{{ history.title }}</h6>
+                <p class="mb-0 text-muted">{{ history.time }}</p>
+              </div>
+              <div class="flex-shrink-0 text-end">
+                <h6 class="mb-1">{{ history.amount }}</h6>
+                <p class="mb-0 text-muted">{{ history.percentage }}</p>
               </div>
             </div>
-          </div>
-          <app-bajaj-chart />
-        </div>
-        <ul class="list-group list-group-flush">
-          @for (list of ListGroup; track list) {
-            <li class="list-group-item px-0 {{ list.space }}">
-              <div class="row align-items-start">
-                <div class="col">
-                  <h5 class="mb-0">{{ list.name }}</h5>
-                  <small class="{{ list.color }}">{{ list.profit }}</small>
-                </div>
-                <div class="col-auto">
-                  <h4 class="mb-0">
-                    {{ list.invest }}
-                    <span class="ms-2 align-top avatar avatar-xxs {{ list.bgColor }}">
-                      <i class="{{ list.icon }} {{ list.color }}"></i>
-                    </span>
-                  </h4>
-                </div>
-              </div>
-            </li>
-          }
-        </ul>
-        <div class="text-center">
-          <a href="javascript:" class="b-b-primary text-primary f-w-500">
-            View all
-            <i class="ti ti-chevron-right"></i>
           </a>
+        }
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <h5>Help & Support Chat</h5>
+            <p class="mb-3">Typical replay within 5 min</p>
+          </div>
+          <div class="col-auto">
+            <div class="user-group mb-3">
+              <img src="assets/images/user/avatar-1.jpg" alt="image" />
+              <img src="assets/images/user/avatar-2.jpg" alt="image" />
+              <img src="assets/images/user/avatar-3.jpg" alt="image" />
+            </div>
+          </div>
+        </div>
+        <div class="d-grid">
+          <div class="btn btn-primary">Need Help?</div>
         </div>
       </div>
     </div>
   </div>
+  <!-- [ sample-page ] end -->
 </div>

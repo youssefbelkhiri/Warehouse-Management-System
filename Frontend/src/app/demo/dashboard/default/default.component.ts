@@ -1,80 +1,111 @@
-// Angular Import
-import { Component } from '@angular/core';
+// angular import
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // project import
-import { SharedModule } from 'src/app/theme/shared/shared.module';
-import { BajajChartComponent } from 'src/app/theme/shared/components/apexchart/bajaj-chart/bajaj-chart.component';
-import { BarChartComponent } from 'src/app/theme/shared/components/apexchart/bar-chart/bar-chart.component';
-import { ChartDataMonthComponent } from 'src/app/theme/shared/components/apexchart/chart-data-month/chart-data-month.component';
+import tableData from 'src/fake-data/default-data.json';
+
+import { MonthlyBarChartComponent } from 'src/app/theme/shared/apexchart/monthly-bar-chart/monthly-bar-chart.component';
+import { IncomeOverviewChartComponent } from 'src/app/theme/shared/apexchart/income-overview-chart/income-overview-chart.component';
+import { AnalyticsChartComponent } from 'src/app/theme/shared/apexchart/analytics-chart/analytics-chart.component';
+import { SalesReportChartComponent } from 'src/app/theme/shared/apexchart/sales-report-chart/sales-report-chart.component';
+
+// icons
+import { IconService, IconDirective } from '@ant-design/icons-angular';
+import { FallOutline, GiftOutline, MessageOutline, RiseOutline, SettingOutline } from '@ant-design/icons-angular/icons';
+import { CardComponent } from 'src/app/theme/shared/components/card/card.component';
 
 @Component({
   selector: 'app-default',
-  imports: [CommonModule, BajajChartComponent, BarChartComponent, ChartDataMonthComponent, SharedModule],
+  imports: [
+    CommonModule,
+    CardComponent,
+    IconDirective,
+    MonthlyBarChartComponent,
+    IncomeOverviewChartComponent,
+    AnalyticsChartComponent,
+    SalesReportChartComponent
+  ],
   templateUrl: './default.component.html',
   styleUrls: ['./default.component.scss']
 })
 export class DefaultComponent {
-  // public method
-  ListGroup = [
+  private iconService = inject(IconService);
+
+  // constructor
+  constructor() {
+    this.iconService.addIcon(...[RiseOutline, FallOutline, SettingOutline, GiftOutline, MessageOutline]);
+  }
+
+  recentOrder = tableData;
+
+  AnalyticEcommerce = [
     {
-      name: 'Bajaj Finery',
-      profit: '10% Profit',
-      invest: '$1839.00',
-      bgColor: 'bg-light-success',
-      icon: 'ti ti-chevron-up',
-      color: 'text-success'
+      title: 'Total Page Views',
+      amount: '4,42,236',
+      background: 'bg-light-primary ',
+      border: 'border-primary',
+      icon: 'rise',
+      percentage: '59.3%',
+      color: 'text-primary',
+      number: '35,000'
     },
     {
-      name: 'TTML',
-      profit: '10% Loss',
-      invest: '$100.00',
-      bgColor: 'bg-light-danger',
-      icon: 'ti ti-chevron-down',
-      color: 'text-danger'
+      title: 'Total Users',
+      amount: '78,250',
+      background: 'bg-light-primary ',
+      border: 'border-primary',
+      icon: 'rise',
+      percentage: '70.5%',
+      color: 'text-primary',
+      number: '8,900'
     },
     {
-      name: 'Reliance',
-      profit: '10% Profit',
-      invest: '$200.00',
-      bgColor: 'bg-light-success',
-      icon: 'ti ti-chevron-up',
-      color: 'text-success'
+      title: 'Total Order',
+      amount: '18,800',
+      background: 'bg-light-warning ',
+      border: 'border-warning',
+      icon: 'fall',
+      percentage: '27.4%',
+      color: 'text-warning',
+      number: '1,943'
     },
     {
-      name: 'ATGL',
-      profit: '10% Loss',
-      invest: '$189.00',
-      bgColor: 'bg-light-danger',
-      icon: 'ti ti-chevron-down',
-      color: 'text-danger'
-    },
-    {
-      name: 'Stolon',
-      profit: '10% Profit',
-      invest: '$210.00',
-      bgColor: 'bg-light-success',
-      icon: 'ti ti-chevron-up',
-      color: 'text-success',
-      space: 'pb-0'
+      title: 'Total Sales',
+      amount: '$35,078',
+      background: 'bg-light-warning ',
+      border: 'border-warning',
+      icon: 'fall',
+      percentage: '27.4%',
+      color: 'text-warning',
+      number: '$20,395'
     }
   ];
 
-  profileCard = [
+  transaction = [
     {
-      style: 'bg-primary-dark text-white',
-      background: 'bg-primary',
-      value: '$203k',
-      text: 'Net Profit',
-      color: 'text-white',
-      value_color: 'text-white'
+      background: 'text-success bg-light-success',
+      icon: 'gift',
+      title: 'Order #002434',
+      time: 'Today, 2:00 AM',
+      amount: '+ $1,430',
+      percentage: '78%'
     },
     {
-      background: 'bg-warning',
-      avatar_background: 'bg-light-warning',
-      value: '$550K',
-      text: 'Total Revenue',
-      color: 'text-warning'
+      background: 'text-primary bg-light-primary',
+      icon: 'message',
+      title: 'Order #984947',
+      time: '5 August, 1:45 PM',
+      amount: '- $302',
+      percentage: '8%'
+    },
+    {
+      background: 'text-danger bg-light-danger',
+      icon: 'setting',
+      title: 'Order #988784',
+      time: '7 hours ago',
+      amount: '- $682',
+      percentage: '16%'
     }
   ];
 }
