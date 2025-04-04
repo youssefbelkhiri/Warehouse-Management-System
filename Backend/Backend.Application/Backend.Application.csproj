@@ -21,7 +21,6 @@
     <Folder Include="Features\MovemenetLineDetails\" />
     <Folder Include="Features\MovementManager\Queries\" />
     <Folder Include="Features\ProductExtraManager\" />
-    <Folder Include="Features\TagManager\Queries\" />
     <Folder Include="Features\Users\Queries\" />
   </ItemGroup>
 

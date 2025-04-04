@@ -8,7 +8,7 @@ using Backend.Domain.Common.Result;
 using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
 
-namespace Backend.Application.Features.CategoryManager.Queries
+namespace Backend.Application.Features.ProductManager.Queries
 {
     public class GetAllProductsQuery : IQuery<GetAllProductsResponse>
     {
@@ -21,15 +21,27 @@ namespace Backend.Application.Features.CategoryManager.Queries
 
     internal sealed class GetAllProductsQueryHandler : IQueryHandler<GetAllProductsQuery, GetAllProductsResponse>
     {
-        private readonly ICategoryRepository _productsRepository;
-        public GetAllProductsQueryHandler(ICategoryRepository productsRepository) 
+        private readonly IProduitRepository _repository;
+        public GetAllProductsQueryHandler(IProduitRepository repository) 
         {
-            _productsRepository = productsRepository;
+            _repository = repository;
         }
 
-        public Task<Result<GetAllProductsResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetAllProductsResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            List<Product> products = await _repository.GetAll();
+            if (products == null)
+            {
+                return Result<GetAllProductsResponse>.Failure(["there is no category"]);
+            }
+
+            GetAllProductsResponse response = new GetAllProductsResponse
+            {
+                productsResponse = products
+            };
+
+
+            return Result<GetAllProductsResponse>.Success(response);
         }
     }
 }

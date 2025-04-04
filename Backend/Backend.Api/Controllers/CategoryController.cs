@@ -61,7 +61,7 @@ namespace Backend.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id) 
         {
-            Result response = await _sender.Send(new DeleteCategoryCommand { id = id });
+            Result response = await _sender.Send(new DeleteMovementCommand { id = id });
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);

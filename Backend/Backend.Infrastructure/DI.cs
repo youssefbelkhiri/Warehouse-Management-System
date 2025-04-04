@@ -47,6 +47,9 @@ namespace Backend.Infrastructure
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped(typeof(ITRepository<>), typeof(TRepositroy<>));
             services.AddScoped<ICategoryRepository , CategoryRepository>();
+            services.AddScoped<IProduitRepository, ProduitRepository>();
+            services.AddScoped<ITagRepository, TagRepository>();
+            services.AddScoped<IMovementRepository, MovementRepositpry>();
             services.AddScoped<IUnityOfWork, UnityOfWork>();
 
 

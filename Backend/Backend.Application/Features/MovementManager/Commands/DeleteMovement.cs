@@ -10,8 +10,9 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.MovementManager.Commands
 {
-    public sealed record DeleteMovementCommand(int id) : ICommand
+    public sealed class DeleteMovementCommand() : ICommand
     {
+        public int Id { get; set; }
     }
 
     internal class DeleteMovementCommandHandler : ICommandHandler<DeleteMovementCommand>
@@ -26,7 +27,7 @@ namespace Backend.Application.Features.MovementManager.Commands
 
         public async Task<Result> Handle(DeleteMovementCommand request, CancellationToken cancellationToken)
         {
-            bool oprationResult = _Repository.Remove(request.id);
+            bool oprationResult = _Repository.Remove(request.Id);
             if (!oprationResult) return Result.Failure(["the categroy notfound"]);
             await _UnityOfWork.SaveChangesAsync(cancellationToken);
             return Result.Success("category id removed");

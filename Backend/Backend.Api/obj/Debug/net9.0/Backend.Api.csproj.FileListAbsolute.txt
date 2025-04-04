@@ -358,7 +358,6 @@ C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Backend.Api.props
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Backend.Api.props
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\Backend..0C93C9B3.Up2Date
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\Backend.Api.dll
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\obj\Debug\net9.0\refint\Backend.Api.dll

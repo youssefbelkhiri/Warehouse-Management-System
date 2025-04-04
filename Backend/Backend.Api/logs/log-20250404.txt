@@ -1,0 +1,246 @@
+2025-04-04 22:11:06.247 +02:00 [DBG] Hosting starting
+2025-04-04 22:11:06.300 +02:00 [INF] User profile is available. Using 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-04 22:11:06.312 +02:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2025-04-04 22:11:06.312 +02:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2025-04-04 22:11:06.316 +02:00 [INF] Creating key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} with creation date 2025-04-04 20:11:06Z, activation date 2025-04-04 20:11:06Z, and expiration date 2025-07-03 20:11:06Z.
+2025-04-04 22:11:06.324 +02:00 [DBG] Descriptor deserializer type for key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2025-04-04 22:11:06.331 +02:00 [DBG] No key escrow sink found. Not writing key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} to escrow.
+2025-04-04 22:11:06.334 +02:00 [DBG] Encrypting to Windows DPAPI for current user account (DESKTOP-JJFL7CT\dell).
+2025-04-04 22:11:06.340 +02:00 [INF] Writing data to file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-49215d3a-f1f8-4124-a0a7-96c9955fa9f1.xml'.
+2025-04-04 22:11:06.341 +02:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2025-04-04 22:11:06.343 +02:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-49215d3a-f1f8-4124-a0a7-96c9955fa9f1.xml'.
+2025-04-04 22:11:06.362 +02:00 [DBG] Found key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1}.
+2025-04-04 22:11:06.365 +02:00 [DBG] Considering key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} with expiration date 2025-07-03 20:11:06Z as default key.
+2025-04-04 22:11:06.367 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-04 22:11:06.368 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-04 22:11:06.369 +02:00 [DBG] Using key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} as the default key.
+2025-04-04 22:11:06.370 +02:00 [DBG] Key ring with default key {49215d3a-f1f8-4124-a0a7-96c9955fa9f1} was loaded during application startup.
+2025-04-04 22:11:06.373 +02:00 [DBG] Middleware loaded
+2025-04-04 22:11:06.384 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-04-04 22:11:06.385 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-04 22:11:06.469 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-04 22:11:06.471 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-04 22:11:06.473 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-04 22:11:06.485 +02:00 [INF] Now listening on: http://localhost:5224
+2025-04-04 22:11:06.485 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-04 22:11:06.485 +02:00 [INF] Hosting environment: Development
+2025-04-04 22:11:06.485 +02:00 [INF] Content root path: C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api
+2025-04-04 22:11:06.485 +02:00 [DBG] Hosting started
+2025-04-04 22:11:06.906 +02:00 [DBG] Connection id "0HNBJMJANBLER" accepted.
+2025-04-04 22:11:06.907 +02:00 [DBG] Connection id "0HNBJMJANBLER" started.
+2025-04-04 22:11:07.063 +02:00 [DBG] Connection id "0HNBJMJANBLER" completed keep alive response.
+2025-04-04 22:11:07.153 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-04 22:11:07.159 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-04 22:11:07.160 +02:00 [DBG] Connection id "0HNBJMJANBLER" completed keep alive response.
+2025-04-04 22:11:07.188 +02:00 [DBG] Connection id "0HNBJMJANBLES" accepted.
+2025-04-04 22:11:07.188 +02:00 [DBG] Connection id "0HNBJMJANBLES" started.
+2025-04-04 22:11:07.188 +02:00 [DBG] Connection id "0HNBJMJANBLET" accepted.
+2025-04-04 22:11:07.188 +02:00 [DBG] Connection id "0HNBJMJANBLET" started.
+2025-04-04 22:11:07.191 +02:00 [DBG] Connection id "0HNBJMJANBLEU" accepted.
+2025-04-04 22:11:07.194 +02:00 [DBG] Connection id "0HNBJMJANBLEU" started.
+2025-04-04 22:11:07.197 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-04 22:11:07.197 +02:00 [DBG] Connection id "0HNBJMJANBLEU" completed keep alive response.
+2025-04-04 22:11:07.211 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-04 22:11:07.214 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-04 22:11:07.214 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-04 22:11:07.214 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:11:07.214 +02:00 [DBG] Connection id "0HNBJMJANBLER" completed keep alive response.
+2025-04-04 22:11:07.215 +02:00 [DBG] Connection id "0HNBJMJANBLET" completed keep alive response.
+2025-04-04 22:11:07.435 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-04 22:11:07.435 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:11:07.605 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:11:15.177 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-04 22:11:15.178 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-04 22:11:15.178 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:11:15.194 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-04 22:11:15.194 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:11:15.402 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:12:08.013 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-04 22:12:08.065 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-04 22:12:08.116 +02:00 [DBG] Connection id "0HNBJMJANBLES", Request id "0HNBJMJANBLES:00000007": started reading request body.
+2025-04-04 22:12:08.116 +02:00 [DBG] Connection id "0HNBJMJANBLES", Request id "0HNBJMJANBLES:00000007": done reading request body.
+2025-04-04 22:12:08.311 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-04 22:12:08.840 +02:00 [DBG] The index {'ProductId'} was not created on entity type 'ProductTag' as the properties are already covered by the index {'ProductId', 'TagId'}.
+2025-04-04 22:12:08.840 +02:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-04-04 22:12:08.840 +02:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-04-04 22:12:09.117 +02:00 [DBG] Entity Framework Core 9.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.3' with options: EngineType=SqlServer 
+2025-04-04 22:12:09.157 +02:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Tag.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-04 22:12:09.203 +02:00 [DBG] Context 'ApplicationDbContext' started tracking 'Tag' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-04-04 22:12:09.209 +02:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-04-04 22:12:09.213 +02:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-04-04 22:12:09.223 +02:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-04-04 22:12:09.370 +02:00 [DBG] Creating DbConnection.
+2025-04-04 22:12:09.434 +02:00 [DBG] Created DbConnection. (62ms).
+2025-04-04 22:12:09.438 +02:00 [DBG] Opening connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-04-04 22:12:39.258 +02:00 [ERR] An error occurred using the connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-04-04 22:12:39.300 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'Backend.Infrastructure.Context.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-04 22:12:39.325 +02:00 [ERR] HTTP POST /api/Tag responded 500 in 31301.5398 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Backend.Application.Features.TagManager.Commands.CreateTagCommandHandler.Handle(CreateTagCommand request, CancellationToken cancellationToken) in C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Application\Features\TagManager\Commands\CreateTag.cs:line 37
+   at Backend.Api.Controllers.TagController.Create(CreateTagCommand tag) in C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\Controllers\TagController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-04 22:12:39.368 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Backend.Application.Features.TagManager.Commands.CreateTagCommandHandler.Handle(CreateTagCommand request, CancellationToken cancellationToken) in C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Application\Features\TagManager\Commands\CreateTag.cs:line 37
+   at Backend.Api.Controllers.TagController.Create(CreateTagCommand tag) in C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Api\Controllers\TagController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-04-04 22:12:39.388 +02:00 [DBG] Connection id "0HNBJMJANBLES" completed keep alive response.
+2025-04-04 22:12:39.391 +02:00 [DBG] 'ApplicationDbContext' disposed.
+2025-04-04 22:12:39.398 +02:00 [DBG] Disposing connection to database 'wms' on server 'DESKTOP-P083R0F\SQLEXPRESS'.
+2025-04-04 22:12:39.402 +02:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-04-04 22:13:03.201 +02:00 [DBG] Connection id "0HNBJMJANBLEU" received FIN.
+2025-04-04 22:13:03.202 +02:00 [DBG] Connection id "0HNBJMJANBLET" received FIN.
+2025-04-04 22:13:03.202 +02:00 [DBG] Connection id "0HNBJMJANBLER" received FIN.
+2025-04-04 22:13:03.206 +02:00 [DBG] Connection id "0HNBJMJANBLER" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-04 22:13:03.206 +02:00 [DBG] Connection id "0HNBJMJANBLET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-04 22:13:03.206 +02:00 [DBG] Connection id "0HNBJMJANBLEU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-04 22:13:03.206 +02:00 [DBG] Connection id "0HNBJMJANBLER" disconnecting.
+2025-04-04 22:13:03.206 +02:00 [DBG] Connection id "0HNBJMJANBLEU" disconnecting.
+2025-04-04 22:13:03.207 +02:00 [DBG] Connection id "0HNBJMJANBLET" disconnecting.
+2025-04-04 22:13:03.217 +02:00 [DBG] Connection id "0HNBJMJANBLER" stopped.
+2025-04-04 22:13:03.217 +02:00 [DBG] Connection id "0HNBJMJANBLEU" stopped.
+2025-04-04 22:13:03.217 +02:00 [DBG] Connection id "0HNBJMJANBLET" stopped.
+2025-04-04 22:14:34.888 +02:00 [DBG] Connection id "0HNBJMJANBLES" received FIN.
+2025-04-04 22:14:34.889 +02:00 [DBG] Connection id "0HNBJMJANBLES" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-04 22:14:34.890 +02:00 [DBG] Connection id "0HNBJMJANBLES" disconnecting.
+2025-04-04 22:14:34.891 +02:00 [DBG] Connection id "0HNBJMJANBLES" stopped.

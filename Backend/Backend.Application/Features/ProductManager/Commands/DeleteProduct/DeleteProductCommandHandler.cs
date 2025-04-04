@@ -22,7 +22,7 @@ namespace Backend.Application.Features.ProductManager.Commands.DeleteProduct
 
         public async Task<Result> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
-            bool oprationResult = _Repository.Remove(request.id);
+            bool oprationResult = _Repository.Remove(request.Id);
             if (!oprationResult) return Result.Failure(["the product notfound"]);
             await _UnityOfWork.SaveChangesAsync(cancellationToken);
             return Result.Success("Product id removed");

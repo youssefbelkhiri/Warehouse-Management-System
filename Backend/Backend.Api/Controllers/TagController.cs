@@ -1,25 +1,22 @@
 ﻿using Backend.Api.Controllers.Common;
-using Backend.Application.Features.ProductManager.Queries;
-using Backend.Application.Features.ProductManager.Commands.CreateProduct;
-using Backend.Application.Features.ProductManager.Commands.DeleteProduct;
-using Backend.Application.Features.ProductManager.Commands.UpdateProduct;
+using Backend.Application.Features.TagManager.Commands;
+using Backend.Application.Features.TagManager.Queries;
 using Backend.Domain.Common.Result;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Backend.Application.Features.ProductsManager.Queries;
 
 namespace Backend.Api.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class ProductController : BaseApiController
+    public class TagController : BaseApiController
     {
-        public ProductController(ISender sender) : base(sender) { }
+        public TagController(ISender sender) : base(sender) { }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            Result<GetAllProductsResponse> response = await _sender.Send(new GetAllProductsQuery());
+            Result<GetAllTagResponse> response = await _sender.Send(new GetAllTagsQuery());
             if (!response.Succeeded)
             {
                 return NotFound(response.Errors);
@@ -30,7 +27,7 @@ namespace Backend.Api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
-            Result<GetProductByIdDto> response = await _sender.Send(new GetProductByIdQuery { Id = id });
+            Result<GetTagByIdDto> response = await _sender.Send(new GetTagByIdQuery { Id = id });
             if (!response.Succeeded)
             {
                 return NotFound(response.Errors);
@@ -39,9 +36,9 @@ namespace Backend.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateProductCommand product)
+        public async Task<IActionResult> Create([FromBody] CreateTagCommand tag)
         {
-            Result response = await _sender.Send(product);
+            Result response = await _sender.Send(tag);
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);
@@ -50,10 +47,10 @@ namespace Backend.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductCommand product)
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateTagCommand tag)
         {
-            product.Id = id;
-            Result response = await _sender.Send(product);
+            tag.Id = id;
+            Result response = await _sender.Send(tag);
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);
@@ -64,7 +61,7 @@ namespace Backend.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            Result response = await _sender.Send(new DeleteProductCommand { Id = id });
+            Result response = await _sender.Send(new DeleteTagCommand { Id = id });
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);

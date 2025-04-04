@@ -10,8 +10,9 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.TagManager.Commands
 {
-    public sealed record DeleteTagCommand(int id) : ICommand
+    public sealed record DeleteTagCommand() : ICommand
     {
+        public int Id { get; set; }
     }
 
     internal class DeleteTagCommandHandler : ICommandHandler<DeleteTagCommand>
@@ -26,7 +27,7 @@ namespace Backend.Application.Features.TagManager.Commands
 
         public async Task<Result> Handle(DeleteTagCommand request, CancellationToken cancellationToken)
         {
-            bool oprationResult = _Repository.Remove(request.id);
+            bool oprationResult = _Repository.Remove(request.Id);
             if (!oprationResult) return Result.Failure(["the categroy notfound"]);
             await _UnityOfWork.SaveChangesAsync(cancellationToken);
             return Result.Success("category id removed");
