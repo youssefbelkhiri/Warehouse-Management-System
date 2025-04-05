@@ -9,7 +9,7 @@ using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
 using Backend.Domain.Interfaces.common;
 
-namespace Backend.Application.Features.CategoryManager.Queries
+namespace Backend.Application.Features.MovementManager.Queries
 {
     public sealed class GetMovementByIdQuery : IQuery<GetMovementByIdDto>
     {
@@ -19,16 +19,29 @@ namespace Backend.Application.Features.CategoryManager.Queries
 
         internal sealed class GetMovementByIdQueryHanlder : IQueryHandler<GetMovementByIdQuery, GetMovementByIdDto>
         {
-        private readonly ICategoryRepository _repository;
+        private readonly IMovementRepository _repository;
 
-        public GetMovementByIdQueryHanlder(ICategoryRepository repository)
+        public GetMovementByIdQueryHanlder(IMovementRepository repository)
         {
             _repository = repository;
         }
 
-        public Task<Result<GetMovementByIdDto>> Handle(GetMovementByIdQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetMovementByIdDto>> Handle(GetMovementByIdQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            Movement movement = await _repository.GetById(request.Id);
+            if (movement == null)
+            {
+                return Result<GetMovementByIdDto>.Failure(["Category not found"]);
+            }
+            GetMovementByIdDto categoryByIdDto = new GetMovementByIdDto
+            {
+                Id = movement.Id,
+                MovementType = movement.MovementType,
+                Date = movement.Date,
+                ProductId = movement.ProductId,
+                TotalQuantity = movement.TotalQuantity,
+            };
+            return Result<GetMovementByIdDto>.Success(categoryByIdDto);
         }
     }
 }

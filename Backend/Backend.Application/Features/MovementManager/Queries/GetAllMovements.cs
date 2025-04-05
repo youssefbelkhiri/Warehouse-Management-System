@@ -8,7 +8,7 @@ using Backend.Domain.Common.Result;
 using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
 
-namespace Backend.Application.Features.CategoryManager.Queries
+namespace Backend.Application.Features.MovementManager.Queries
 {
     public class GetAllMovementsQuery : IQuery<GetAllMovementsResponse>
     {
@@ -21,15 +21,27 @@ namespace Backend.Application.Features.CategoryManager.Queries
 
     internal sealed class GetAllMovementsQueryHandler : IQueryHandler<GetAllMovementsQuery, GetAllMovementsResponse>
     {
-        private readonly ICategoryRepository _categoryRepository;
-        public GetAllMovementsQueryHandler(ICategoryRepository categoryRepository) 
+        private readonly IMovementRepository _movementRepo;
+        public GetAllMovementsQueryHandler(IMovementRepository movementRepo) 
         {
-            _categoryRepository = categoryRepository;
+            _movementRepo = movementRepo;
         }
 
-        public Task<Result<GetAllMovementsResponse>> Handle(GetAllMovementsQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetAllMovementsResponse>> Handle(GetAllMovementsQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            List<Movement> movements = await _movementRepo.GetAll();
+            if (movements == null)
+            {
+                return Result<GetAllMovementsResponse>.Failure(["there is no category"]);
+            }
+
+            GetAllMovementsResponse response = new GetAllMovementsResponse
+            {
+                MovementsResponse = movements
+            };
+
+
+            return Result<GetAllMovementsResponse>.Success(response);
         }
     }
 }

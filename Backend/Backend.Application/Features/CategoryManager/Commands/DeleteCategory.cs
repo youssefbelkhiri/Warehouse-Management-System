@@ -10,12 +10,12 @@ using Backend.Domain.Interfaces.common;
 
 namespace Backend.Application.Features.CategoryManager.Commands
 {
-    public sealed class DeleteCategoryCommand() : ICommand
+    public sealed class DeleteMovementCommand() : ICommand
     {
         public int id { get; set; }
     }
 
-    internal class DeleteCategoryCommandHandler : ICommandHandler<DeleteCategoryCommand>
+    internal class DeleteCategoryCommandHandler : ICommandHandler<DeleteMovementCommand>
     {
         private readonly ITRepository<Category> _Repository;
         private readonly IUnityOfWork _UnityOfWork;
@@ -25,7 +25,7 @@ namespace Backend.Application.Features.CategoryManager.Commands
             _UnityOfWork = unityOfWork;
         }
 
-        public async Task<Result> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(DeleteMovementCommand request, CancellationToken cancellationToken)
         {
             bool oprationResult = _Repository.Remove(request.id);
             if (!oprationResult) return Result.Failure(["the categroy notfound"]);

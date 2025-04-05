@@ -9,7 +9,7 @@ using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
 using Backend.Domain.Interfaces.common;
 
-namespace Backend.Application.Features.CategoryManager.Queries
+namespace Backend.Application.Features.TagManager.Queries
 {
     public sealed class GetTagByIdQuery : IQuery<GetTagByIdDto>
     {
@@ -19,27 +19,26 @@ namespace Backend.Application.Features.CategoryManager.Queries
 
         internal sealed class GetTagByIdQueryHanlder : IQueryHandler<GetTagByIdQuery, GetTagByIdDto>
         {
-        private readonly ICategoryRepository _repository;
+        private readonly ITagRepository _repository;
 
-        public GetTagByIdQueryHanlder(ICategoryRepository repository)
+        public GetTagByIdQueryHanlder(ITagRepository repository)
         {
             _repository = repository;
         }
 
         public async Task<Result<GetTagByIdDto>> Handle(GetTagByIdQuery request, CancellationToken cancellationToken)
         {
-            Category category = await _repository.GetById(request.Id);
-            if (category == null)
+            Tag tag = await _repository.GetById(request.Id);
+            if (tag == null)
             {
                 return Result<GetTagByIdDto>.Failure(["Category not found"]);
             }
-            GetTagByIdDto categoryByIdDto = new GetTagByIdDto
+            GetTagByIdDto tagByIdDto = new GetTagByIdDto
             {
-                Id = category.Id,
-                Name = category.Name,
-                DefaultUnit = category.DefaultUnit,
+                Id = tag.Id,
+                Name = tag.Name,
             };
-            return Result<GetTagByIdDto>.Success(categoryByIdDto);
+            return Result<GetTagByIdDto>.Success(tagByIdDto);
         }
     }
 }

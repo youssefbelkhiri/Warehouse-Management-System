@@ -7,8 +7,9 @@ using Backend.Application.Abstraction.Messaging;
 using Backend.Domain.Common.Result;
 using Backend.Domain.Entities;
 using Backend.Domain.Interfaces;
+using Backend.Domain.Interfaces.common;
 
-namespace Backend.Application.Features.CategoryManager.Queries
+namespace Backend.Application.Features.TagManager.Queries
 {
     public class GetAllTagsQuery : IQuery<GetAllTagResponse>
     {
@@ -16,27 +17,27 @@ namespace Backend.Application.Features.CategoryManager.Queries
 
     public  class GetAllTagResponse
     {
-        public List<Category> categoriesResponse { get; set; } = new List<Category> { new Category() };
+        public List<Tag> TagsResponse { get; set; } = new List<Tag> { new Tag() };
     }
 
     internal sealed class GetAllTagsQueryHandler : IQueryHandler<GetAllTagsQuery, GetAllTagResponse>
     {
-        private readonly ICategoryRepository _categoryRepository;
-        public GetAllTagsQueryHandler(ICategoryRepository categoryRepository) 
+        private readonly ITagRepository _repository;
+        public GetAllTagsQueryHandler(ITagRepository repository) 
         {
-            _categoryRepository = categoryRepository;
+            _repository = repository;
         }
         public async Task<Result<GetAllTagResponse>> Handle(GetAllTagsQuery request, CancellationToken cancellationToken)
         {
-            List<Category> categories = await _categoryRepository.GetAll();
-            if (categories == null) 
+            List<Tag> tags = await _repository.GetAll();
+            if (tags == null)
             {
                 return Result<GetAllTagResponse>.Failure(["there is no category"]);
             }
 
             GetAllTagResponse response = new GetAllTagResponse
             {
-                categoriesResponse = categories
+                TagsResponse = tags
             };
 
 

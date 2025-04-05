@@ -1,25 +1,22 @@
 ﻿using Backend.Api.Controllers.Common;
-using Backend.Application.Features.ProductManager.Queries;
-using Backend.Application.Features.ProductManager.Commands.CreateProduct;
-using Backend.Application.Features.ProductManager.Commands.DeleteProduct;
-using Backend.Application.Features.ProductManager.Commands.UpdateProduct;
+using Backend.Application.Features.MovementManager.Queries;
+using Backend.Application.Features.MovementManager.Commands;
 using Backend.Domain.Common.Result;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Backend.Application.Features.ProductsManager.Queries;
 
 namespace Backend.Api.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class ProductController : BaseApiController
+    public class MovementController : BaseApiController
     {
-        public ProductController(ISender sender) : base(sender) { }
+        public MovementController(ISender sender) : base(sender) { }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            Result<GetAllProductsResponse> response = await _sender.Send(new GetAllProductsQuery());
+            Result<GetAllMovementsResponse> response = await _sender.Send(new GetAllMovementsQuery());
             if (!response.Succeeded)
             {
                 return NotFound(response.Errors);
@@ -30,7 +27,7 @@ namespace Backend.Api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
-            Result<GetProductByIdDto> response = await _sender.Send(new GetProductByIdQuery { Id = id });
+            Result<GetMovementByIdDto> response = await _sender.Send(new GetMovementByIdQuery { Id = id });
             if (!response.Succeeded)
             {
                 return NotFound(response.Errors);
@@ -39,9 +36,9 @@ namespace Backend.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateProductCommand product)
+        public async Task<IActionResult> Create([FromBody] CreateMovementCommand movement)
         {
-            Result response = await _sender.Send(product);
+            Result response = await _sender.Send(movement);
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);
@@ -50,10 +47,10 @@ namespace Backend.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductCommand product)
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateMovementCommand movement)
         {
-            product.Id = id;
-            Result response = await _sender.Send(product);
+            movement.Id = id;
+            Result response = await _sender.Send(movement);
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);
@@ -64,7 +61,7 @@ namespace Backend.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            Result response = await _sender.Send(new DeleteProductCommand { Id = id });
+            Result response = await _sender.Send(new Application.Features.MovementManager.Commands.DeleteMovementCommand { Id = id });
             if (!response.Succeeded)
             {
                 return BadRequest(response.Errors);
