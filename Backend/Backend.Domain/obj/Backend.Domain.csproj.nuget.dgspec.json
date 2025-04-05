@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {}
+    "C:\\Users\\hp\\Desktop\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+    "C:\\Users\\hp\\Desktop\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
         "projectName": "Backend.Domain",
-        "projectPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Documents\\wms\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Warehouse-Management-System\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Warehouse-Management-System\\Backend\\Backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

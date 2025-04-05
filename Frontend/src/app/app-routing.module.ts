@@ -27,10 +27,6 @@ const routes: Routes = [
       {
         path: 'color',
         loadComponent: () => import('./demo/component/basic-component/typography/typography.component').then((c) => c.TypographyComponent)
-      },
-      {
-        path: 'sample-page',
-        loadComponent: () => import('./demo/others/sample-page/sample-page.component').then((c) => c.SamplePageComponent)
       }
     ]
   },

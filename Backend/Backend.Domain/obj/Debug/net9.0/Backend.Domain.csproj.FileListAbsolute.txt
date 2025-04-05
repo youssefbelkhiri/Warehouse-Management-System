@@ -24,3 +24,16 @@ C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\o
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\refint\Backend.Domain.dll
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.pdb
 C:\Users\dell\Documents\wms\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\ref\Backend.Domain.dll
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.deps.json
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.dll
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\bin\Debug\net9.0\Backend.Domain.pdb
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.AssemblyInfo.cs
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.sourcelink.json
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.dll
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\refint\Backend.Domain.dll
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\Backend.Domain.pdb
+C:\Users\hp\Desktop\Warehouse-Management-System\Backend\Backend.Domain\obj\Debug\net9.0\ref\Backend.Domain.dll
